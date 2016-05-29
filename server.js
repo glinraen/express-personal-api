@@ -30,6 +30,27 @@ app.get('/', function homepage(req, res) {
   res.sendFile(__dirname + '/views/index.html');
 });
 
+app.get("/vacation", function(req, res) {
+});
+
+app.post("/vacation", function(req, res) {
+});
+
+/*  "/vacation:id"
+ *    GET: find vacation by id
+ *    PUT: update vacation by id
+ *    DELETE: deletes vacation by id
+ */
+
+app.get("/vacation/:id", function(req, res) {
+});
+
+app.put("/vacation/:id", function(req, res) {
+});
+
+app.delete("/vacation/:id", function(req, res) {
+});
+
 
 /*
  * JSON API Endpoints
